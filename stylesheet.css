@@ -1,3 +1,31 @@
 . {
     grid: border-box;
 }
+
+
+
+#home {
+    background-image: url("media/Color\ \(14\ of\ 20\).jpg");
+    width:100%
+    margin: 0px;
+    padding: 0px;
+}
+
+#bio_background {
+    background-image: url("Media/Color\ \(18\ of\ 20\).jpg");
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+#bio_pic {
+    display: block;
+    float: left;
+    width: 10em;
+
+}
+
+.section_information {
+    display: 
+}
