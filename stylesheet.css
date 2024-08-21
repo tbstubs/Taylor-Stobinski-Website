@@ -5,14 +5,14 @@
 #home {
     background-image: url("media/Color\ \(14\ of\ 20\).jpg");
     background-size: cover;
-    width:100%
-    /* margin: 0px;
+    display: block;
+    width:100%;
+    /* margin: 0px; 
     padding: 0px; */
 }
 
 #bio_background {
     /* background-image: url("Media/Color\ \(15\ of\ 20\).jpg"); */
-    background-
     background-size: cover;
     width: 100%;
     margin: 0px;
@@ -39,4 +39,8 @@
 
 .section_information {
     /* display: ; */
+}
+
+.nav_linksf {
+    background-color: transparent;
 }
