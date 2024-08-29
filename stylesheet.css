@@ -1,56 +1,45 @@
-/* . {
+/* ----- Universal Styles ----- */
+. {
     grid: border-box;
-} */
+}
 
 body {
     margin: 0rem;
     padding: 0rem;
 }
 
-section { 
-    margin: 0rem;
-    padding: 0rem;
-}
-
-p {
-    margin: 1 rem;
-}
-
-#home {
+/* ----- Home Section of Page ----- */
+#home_section {
     background-image: url("media/Color\ \(14\ of\ 20\).jpg");
     background-size: cover;
-    display: grid;
-    width:100%;
-    /* margin: 0px; 
-    padding: 0px; */
 }
 
-#bio_background {
+/* ----- Bio Section of Page ----- */
+#bio_section {
     background-image: url("Media/Color\ \(15\ of\ 20\).jpg");
     background-size: cover;
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    
-}
-
-#bio_pic_background {
-    display: grid;
-    width: 100%;
-    padding: 0rem;
-    margin: 0rem;
-    z-index: 0;
-    
 }
 
 #bio_pic {
     display: grid;
     float: left;
     width: 10em;
-    z-index: 1;
-
 }
 
-.nav_linksf {
-    background-color: transparent;
+/* ----- Teaching Section of Page ----- */
+#teaching_section {
+    background-image: url("Media/Color\ \(18\ of\ 20\).jpg");
+    background-size: cover;
+}
+
+/* ----- Contact Section of Page ----- */
+#contact_section {
+    background-image: url(media/Color\ \(5\ of\ 20\).jpg);
+    background-size: cover;
+}
+
+/* ----- Footer ----- */
+footer {
+    background-color: black;
+    color: white;
 }
