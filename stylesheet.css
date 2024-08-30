@@ -1,7 +1,4 @@
 /* ----- Universal Styles ----- */
-. {
-    grid: border-box;
-}
 
 body {
     margin: 0rem;
@@ -12,12 +9,16 @@ body {
 #home_section {
     background-image: url("media/Color\ \(14\ of\ 20\).jpg");
     background-size: cover;
+    margin-bottom: -1.25rem;
+    padding-bottom: 20em;
 }
 
 /* ----- Bio Section of Page ----- */
 #bio_section {
     background-image: url("Media/Color\ \(15\ of\ 20\).jpg");
     background-size: cover;
+    margin-bottom: -1.25rem;
+    padding-bottom: 20em;
 }
 
 #bio_pic {
@@ -30,16 +31,22 @@ body {
 #teaching_section {
     background-image: url("Media/Color\ \(18\ of\ 20\).jpg");
     background-size: cover;
+    margin-bottom: -1.25rem;
+    padding-bottom: 20em;
 }
 
 /* ----- Contact Section of Page ----- */
 #contact_section {
     background-image: url(media/Color\ \(5\ of\ 20\).jpg);
     background-size: cover;
+    margin-bottom: -1.25rem;
+    padding-bottom: 20em;
 }
 
 /* ----- Footer ----- */
 footer {
     background-color: black;
     color: white;
+    margin-bottom: -1.25rem;
+    text-align: center;
 }
