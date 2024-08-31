@@ -1,3 +1,4 @@
+/* @media only screen and (max-width: 768px) */
 /* ----- Universal Styles ----- */
 
 body {
@@ -5,12 +6,21 @@ body {
     padding: 0rem;
 }
 
+h3 {
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    margin: 0em;
+}
+
+
 /* ----- Home Section of Page ----- */
 #home_section {
     background-image: url("media/Color\ \(14\ of\ 20\).jpg");
     background-size: cover;
     margin-bottom: -1.25rem;
     padding-bottom: 20em;
+    
 }
 
 /* ----- Bio Section of Page ----- */
@@ -24,7 +34,12 @@ body {
 #bio_pic {
     display: grid;
     float: left;
-    width: 10em;
+    width: 4em;
+}
+
+.bio_information {
+    color: white;
+    /* background-color: rgb(49, 49, 49); */
 }
 
 /* ----- Teaching Section of Page ----- */
