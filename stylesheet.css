@@ -6,6 +6,10 @@ body {
     padding: 0rem;
 }
 
+h1 {
+    padding-top: 3em;
+}
+
 h3 {
     color: white;
     text-align: center;
@@ -13,6 +17,45 @@ h3 {
     margin: 0em;
 }
 
+ul {
+    background-color: gray;
+    margin-top: 0em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    position: fixed;
+    top: 0rem;
+    width: 100%;
+}
+
+li {
+    display: inline;    
+}
+
+li a {
+    color: white;
+    font-size: 1.3em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    text-decoration: none;
+    align-self: auto;
+}
+
+#footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#footer_button {
+    border: solid .2em;
+    border-color: white;
+    color: white;
+    padding: .5em;
+    text-decoration: none;
+}
+
+#footer_button_wrapper {
+    padding: 1em;
+}
 
 /* ----- Home Section of Page ----- */
 #home_section {
