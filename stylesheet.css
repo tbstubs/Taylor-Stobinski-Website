@@ -7,13 +7,24 @@ body {
 }
 
 h1 {
-    padding-top: 3em;
+    color: white;
+    font-size: 1.75em;
+    text-align: right;
+    padding-top: 2em;
+    margin-right: 1em;
+}
+
+h2 {
+    color: white;
+    font-size: 1.25em;
+    text-align: right;
+    margin-right: 1em;
 }
 
 h3 {
     color: white;
     text-align: center;
-    font-size: 4em;
+    font-size: 2.5em;
     margin: 0em;
 }
 
@@ -35,9 +46,14 @@ li a {
     color: white;
     font-size: 1.3em;
     padding-top: .5em;
+    padding-left: .75em;
     padding-bottom: .5em;
     text-decoration: none;
-    align-self: auto;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 1em;
 }
 
 #footer {
@@ -60,6 +76,9 @@ li a {
 /* ----- Home Section of Page ----- */
 #home_section {
     background-image: url("media/Color\ \(14\ of\ 20\).jpg");
+    background-color: rgb(196, 196, 196);
+    background-blend-mode: multiply;
+    background-position-x: -160px;
     background-size: cover;
     margin-bottom: -1.25rem;
     padding-bottom: 20em;
@@ -69,15 +88,19 @@ li a {
 /* ----- Bio Section of Page ----- */
 #bio_section {
     background-image: url("Media/Color\ \(15\ of\ 20\).jpg");
+    background-color: rgb(80, 80, 80);
+    background-blend-mode: overlay;
     background-size: cover;
     margin-bottom: -1.25rem;
-    padding-bottom: 20em;
+    padding-bottom: 10em;
 }
 
 #bio_pic {
     display: grid;
+    padding-right: 1em;
+    padding-bottom: .25em;
     float: left;
-    width: 4em;
+    width: 50%;
 }
 
 .bio_information {
@@ -91,6 +114,7 @@ li a {
     background-size: cover;
     margin-bottom: -1.25rem;
     padding-bottom: 20em;
+    
 }
 
 /* ----- Contact Section of Page ----- */
