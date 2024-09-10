@@ -1,5 +1,664 @@
+@media only screen and (max-width: 1000px) {
+    body {
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    h1 {
+        color: white;
+        font-size: 2.3em;
+        text-align: right;
+        padding-top: 2em;
+        margin-right: 1em;
+    }
+
+    h2 {
+        color: white;
+        font-size: 1.9em;
+        text-align: right;
+        margin-right: 1em;
+    }
+
+    h3 {
+        color: white;
+        text-align: center;
+        font-size: 2.5em;
+        margin: 0em;
+        padding: .5em;
+    }
+
+    ul {
+        background-color: gray;
+        margin-top: 0em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        position: fixed;
+        top: 0rem;
+        width: 100%;
+    }
+
+    li {
+        display: inline;    
+    }
+
+    li a {
+        color: white;
+        font-size: 1.3em;
+        padding-top: .5em;
+        padding-left: .75em;
+        padding-bottom: .5em;
+        text-decoration: none;
+    }
+
+    p {
+        font-size: 1em;
+        margin: 1em;
+    }
+
+    .contact_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    .contact_button_wrapper {
+        text-align: center;
+    }
+
+    #footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #footer_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    #footer_button_wrapper {
+        padding: 1em;
+    }
+
+    /* ----- Home Section of Page ----- */
+    #home_section {
+        background-image: url("media/Color\ \(14\ of\ 20\).jpg");
+        background-color: rgb(175, 175, 175);
+        background-blend-mode: multiply;
+        background-position-x: -230px;
+        background-size: 135%;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 10em;
+        
+    }
+
+    /* ----- Bio Section of Page ----- */
+    #bio_section {
+        background-image: url("Media/Color\ \(15\ of\ 20\).jpg");
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-size: cover;
+        margin-bottom: -1.25rem;
+        padding-bottom: 5em;
+    }
+
+    #bio_pic {
+        display: grid;
+        padding-right: 1em;
+        padding-bottom: .25em;
+        float: left;
+        width: 300px;
+    }
+
+    .bio_information {
+        color: white;
+        /* background-color: rgb(49, 49, 49); */
+    }
+
+    /* ----- Teaching Section of Page ----- */
+    #teaching_section {
+        background-image: url("Media/Color\ \(18\ of\ 20\).jpg");
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position-x: -100px;
+        background-size: 150%;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 4em;
+    }
+
+    .teaching_information {
+        color: white;
+        display: grid;
+        grid-template-columns: 60% auto;
+    }
+
+    /* ----- Contact Section of Page ----- */
+    #contact_section {
+        background-image: url(media/Color\ \(16\ of\ 20\).jpg);
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position: bottom;
+        background-size: cover;
+        margin-bottom: -1.25rem;
+        padding-bottom: 4em;
+    }
+
+    .contact_information {
+        color: white;
+    }
+
+    /* ----- Footer ----- */
+    footer {
+        background-color: black;
+        color: white;
+        margin-bottom: -1.25rem;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    h1 {
+        color: white;
+        font-size: 2.3em;
+        text-align: right;
+        padding-top: 2em;
+        margin-right: 1em;
+    }
+
+    h2 {
+        color: white;
+        font-size: 1.9em;
+        text-align: right;
+        margin-right: 1em;
+    }
+
+    h3 {
+        color: white;
+        text-align: center;
+        font-size: 2.5em;
+        margin: 0em;
+        padding: .5em;
+    }
+
+    ul {
+        background-color: gray;
+        margin-top: 0em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        position: fixed;
+        top: 0rem;
+        width: 100%;
+    }
+
+    li {
+        display: inline;    
+    }
+
+    li a {
+        color: white;
+        font-size: 1.3em;
+        padding-top: .5em;
+        padding-left: .75em;
+        padding-bottom: .5em;
+        text-decoration: none;
+    }
+
+    p {
+        font-size: 1em;
+        margin: 1em;
+    }
+
+    .contact_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    .contact_button_wrapper {
+        text-align: center;
+    }
+
+    #footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #footer_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    #footer_button_wrapper {
+        padding: 1em;
+    }
+
+    /* ----- Home Section of Page ----- */
+    #home_section {
+        background-image: url("media/Color\ \(14\ of\ 20\).jpg");
+        background-color: rgb(175, 175, 175);
+        background-blend-mode: multiply;
+        background-position-x: -200px;
+        background-size: 150%;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 10em;
+        
+    }
+
+    /* ----- Bio Section of Page ----- */
+    #bio_section {
+        background-image: url("Media/Color\ \(15\ of\ 20\).jpg");
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-size: cover;
+        margin-bottom: -1.25rem;
+        padding-bottom: 5em;
+    }
+
+    #bio_pic {
+        display: grid;
+        padding-right: 1em;
+        padding-bottom: .25em;
+        float: left;
+        width: 40%;
+    }
+
+    .bio_information {
+        color: white;
+        /* background-color: rgb(49, 49, 49); */
+    }
+
+    /* ----- Teaching Section of Page ----- */
+    #teaching_section {
+        background-image: url("Media/Color\ \(18\ of\ 20\).jpg");
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position-x: -100px;
+        background-size: 150%;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 4em;
+    }
+
+    .teaching_information {
+        color: white;
+        display: grid;
+        grid-template-columns: 60% auto;
+    }
+
+    /* ----- Contact Section of Page ----- */
+    #contact_section {
+        background-image: url(media/Color\ \(16\ of\ 20\).jpg);
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position: bottom;
+        background-size: cover;
+        margin-bottom: -1.25rem;
+        padding-bottom: 4em;
+    }
+
+    .contact_information {
+        color: white;
+    }
+
+    /* ----- Footer ----- */
+    footer {
+        background-color: black;
+        color: white;
+        margin-bottom: -1.25rem;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    h1 {
+        color: white;
+        font-size: 2.3em;
+        text-align: right;
+        padding-top: 2em;
+        margin-right: 1em;
+    }
+
+    h2 {
+        color: white;
+        font-size: 1.9em;
+        text-align: right;
+        margin-right: 1em;
+    }
+
+    h3 {
+        color: white;
+        text-align: center;
+        font-size: 2.5em;
+        margin: 0em;
+        padding: .5em;
+    }
+
+    ul {
+        background-color: gray;
+        margin-top: 0em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        position: fixed;
+        top: 0rem;
+        width: 100%;
+    }
+
+    li {
+        display: inline;    
+    }
+
+    li a {
+        color: white;
+        font-size: 1.3em;
+        padding-top: .5em;
+        padding-left: .75em;
+        padding-bottom: .5em;
+        text-decoration: none;
+    }
+
+    p {
+        font-size: 1em;
+        margin: 1em;
+    }
+
+    .contact_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    .contact_button_wrapper {
+        text-align: center;
+    }
+
+    #footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #footer_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    #footer_button_wrapper {
+        padding: 1em;
+    }
+
+    /* ----- Home Section of Page ----- */
+    #home_section {
+        background-image: url("media/Color\ \(14\ of\ 20\).jpg");
+        background-color: rgb(175, 175, 175);
+        background-blend-mode: multiply;
+        background-position-x: -160px;
+        background-size: 150%;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 10em;
+        
+    }
+
+    /* ----- Bio Section of Page ----- */
+    #bio_section {
+        background-image: url("Media/Color\ \(15\ of\ 20\).jpg");
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-size: cover;
+        margin-bottom: -1.25rem;
+        padding-bottom: 5em;
+    }
+
+    #bio_pic {
+        display: grid;
+        padding-right: 1em;
+        padding-bottom: .25em;
+        float: left;
+        width: 40%;
+    }
+
+    .bio_information {
+        color: white;
+        /* background-color: rgb(49, 49, 49); */
+    }
+
+    /* ----- Teaching Section of Page ----- */
+    #teaching_section {
+        background-image: url("Media/Color\ \(18\ of\ 20\).jpg");
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position-x: -230px;
+        background-size: 215%;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 4em;
+    }
+
+    .teaching_information {
+        color: white;
+        display: grid;
+        grid-template-columns: 60% auto;
+    }
+
+    /* ----- Contact Section of Page ----- */
+    #contact_section {
+        background-image: url(media/Color\ \(16\ of\ 20\).jpg);
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position: bottom;
+        background-size: cover;
+        margin-bottom: -1.25rem;
+        padding-bottom: 4em;
+    }
+
+    .contact_information {
+        color: white;
+    }
+
+    /* ----- Footer ----- */
+    footer {
+        background-color: black;
+        color: white;
+        margin-bottom: -1.25rem;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        margin: 0rem;
+        padding: 0rem;
+    }
+
+    h1 {
+        color: white;
+        font-size: 2em;
+        text-align: right;
+        padding-top: 2em;
+        margin-right: 1em;
+    }
+
+    h2 {
+        color: white;
+        font-size: 1.5em;
+        text-align: right;
+        margin-right: 1em;
+    }
+
+    h3 {
+        color: white;
+        text-align: center;
+        font-size: 2.5em;
+        margin: 0em;
+        padding: .5em;
+    }
+
+    ul {
+        background-color: gray;
+        margin-top: 0em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        position: fixed;
+        top: 0rem;
+        width: 100%;
+    }
+
+    li {
+        display: inline;    
+    }
+
+    li a {
+        color: white;
+        font-size: 1.3em;
+        padding-top: .5em;
+        padding-left: .75em;
+        padding-bottom: .5em;
+        text-decoration: none;
+    }
+
+    p {
+        font-size: .8em;
+        margin: 1em;
+    }
+
+    .contact_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    .contact_button_wrapper {
+        text-align: center;
+    }
+
+    #footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #footer_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    #footer_button_wrapper {
+        padding: 1em;
+    }
+
+    /* ----- Home Section of Page ----- */
+    #home_section {
+        background-image: url("media/Color\ \(14\ of\ 20\).jpg");
+        background-color: rgb(175, 175, 175);
+        background-blend-mode: multiply;
+        background-position-x: -130px;
+        background-size: 150%;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 10em;
+        
+    }
+
+    /* ----- Bio Section of Page ----- */
+    #bio_section {
+        background-image: url("Media/Color\ \(15\ of\ 20\).jpg");
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-size: cover;
+        margin-bottom: -1.25rem;
+        padding-bottom: 5em;
+    }
+
+    #bio_pic {
+        display: grid;
+        padding-right: 1em;
+        padding-bottom: .25em;
+        float: left;
+        width: 40%;
+    }
+
+    .bio_information {
+        color: white;
+        /* background-color: rgb(49, 49, 49); */
+    }
+
+    /* ----- Teaching Section of Page ----- */
+    #teaching_section {
+        background-image: url("Media/Color\ \(18\ of\ 20\).jpg");
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position-x: -190px;
+        background-size: 215%;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 4em;
+    }
+
+    .teaching_information {
+        color: white;
+        display: grid;
+        grid-template-columns: 60% auto;
+    }
+
+    /* ----- Contact Section of Page ----- */
+    #contact_section {
+        background-image: url(media/Color\ \(16\ of\ 20\).jpg);
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position: bottom;
+        background-size: cover;
+        margin-bottom: -1.25rem;
+        padding-bottom: 4em;
+    }
+
+    .contact_information {
+        color: white;
+    }
+
+    /* ----- Footer ----- */
+    footer {
+        background-color: black;
+        color: white;
+        margin-bottom: -1.25rem;
+        text-align: center;
+    }
+
+}
+
 @media only screen and (max-width: 400px) {
-    /* ----- Universal Styles ----- */
 
     body {
         margin: 0rem;
@@ -126,7 +785,7 @@
         background-image: url("Media/Color\ \(18\ of\ 20\).jpg");
         background-color: rgb(80, 80, 80);
         background-blend-mode: overlay;
-        background-position-x: -270px;
+        background-position-x: -240px;
         background-size: 250%;
         background-repeat: no-repeat;
         margin-bottom: -1.25rem;
@@ -161,4 +820,5 @@
         margin-bottom: -1.25rem;
         text-align: center;
     }
+
 }
