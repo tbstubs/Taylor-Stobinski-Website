@@ -174,7 +174,7 @@ body {
 
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (min-width: 601px) and (max-width: 800px) {
     body {
         margin: 0rem;
         padding: 0rem;
@@ -339,7 +339,7 @@ body {
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 501px) and (max-width: 600px) {
     body {
         margin: 0rem;
         padding: 0rem;
@@ -505,40 +505,42 @@ body {
 
 }
 
-@media only screen and (max-width: 500px) {
-    body {
-        margin: 0rem;
-        padding: 0rem;
-    }
+@media only screen and (min-width: 401px) and (max-width: 500px) {
 
     h1 {
         color: white;
-        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.4em;
         text-align: right;
-        padding-top: 2em;
-        margin-right: 1em;
+        padding-top: 1.1rem;
+        margin-right: 1rem;
     }
 
     h2 {
         color: white;
-        font-size: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.6em;
         text-align: right;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
         margin-right: 1em;
+        padding: 0rem;
     }
 
     h3 {
         color: white;
         text-align: center;
-        font-size: 2.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.75em;
         margin: 0em;
         padding: .5em;
     }
 
     ul {
-        background-color: gray;
+        background-color: rgb(68, 68, 68);
         margin-top: 0em;
-        padding-top: .5em;
-        padding-bottom: .5em;
+        padding-top: .75em;
+        padding-bottom: .75em;
         position: fixed;
         top: 0rem;
         width: 100%;
@@ -550,7 +552,8 @@ body {
 
     li a {
         color: white;
-        font-size: 1.3em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.15em;
         padding-top: .5em;
         padding-left: .75em;
         padding-bottom: .5em;
@@ -558,7 +561,8 @@ body {
     }
 
     p {
-        font-size: .8em;
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
         margin: 1em;
     }
 
@@ -596,11 +600,10 @@ body {
         background-image: url("media/Color\ \(14\ of\ 20\).jpg");
         background-color: rgb(175, 175, 175);
         background-blend-mode: multiply;
-        background-position-x: -130px;
-        background-size: 150%;
-        background-repeat: no-repeat;
+        background-position-x: -120px;
+        background-size: 145%;
         margin-bottom: -1.25rem;
-        padding-bottom: 10em;
+        padding-bottom: 14em;
         
     }
 
@@ -619,7 +622,7 @@ body {
         padding-right: 1em;
         padding-bottom: .25em;
         float: left;
-        width: 40%;
+        width: 50%;
     }
 
     .bio_information {
@@ -632,17 +635,17 @@ body {
         background-image: url("Media/Color\ \(18\ of\ 20\).jpg");
         background-color: rgb(80, 80, 80);
         background-blend-mode: overlay;
-        background-position-x: -190px;
-        background-size: 215%;
+        background-position-x: -510px;
+        background-size: 350%;
         background-repeat: no-repeat;
         margin-bottom: -1.25rem;
-        padding-bottom: 4em;
+        padding-bottom: 10em;
     }
 
     .teaching_information {
         color: white;
         display: grid;
-        grid-template-columns: 60% auto;
+        grid-template-columns:60% auto;
     }
 
     /* ----- Contact Section of Page ----- */
@@ -650,10 +653,10 @@ body {
         background-image: url(media/Color\ \(16\ of\ 20\).jpg);
         background-color: rgb(80, 80, 80);
         background-blend-mode: overlay;
-        background-position: bottom;
+        background-position: -100px bottom;
         background-size: cover;
+        padding-bottom: 7rem;
         margin-bottom: -1.25rem;
-        padding-bottom: 4em;
     }
 
     .contact_information {
@@ -695,6 +698,7 @@ body {
     h3 {
         color: white;
         text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
         font-size: 2.5em;
         margin: 0em;
         padding: .5em;
@@ -799,17 +803,16 @@ body {
         background-image: url("Media/Color\ \(18\ of\ 20\).jpg");
         background-color: rgb(80, 80, 80);
         background-blend-mode: overlay;
-        background-position-x: -550px;
-        background-size: 385%;
+        background-position-x: -430px;
+        background-size: 325%;
         background-repeat: no-repeat;
         margin-bottom: -1.25rem;
-        padding-bottom: 4em;
     }
 
     .teaching_information {
         color: white;
         display: grid;
-        grid-template-columns:60% auto;
+        grid-template-columns:57.5% auto;
     }
 
     /* ----- Contact Section of Page ----- */
@@ -817,10 +820,10 @@ body {
         background-image: url(media/Color\ \(16\ of\ 20\).jpg);
         background-color: rgb(80, 80, 80);
         background-blend-mode: overlay;
-        background-position-x: -40px;
+        background-position-x: -100px;
         background-size: cover;
         margin-bottom: -1.25rem;
-        padding-bottom: 4em;
+        padding-bottom: 7em;
     }
 
     .contact_information {
