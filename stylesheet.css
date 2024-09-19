@@ -2,42 +2,47 @@
 body {
     margin: 0rem;
     padding: 0rem;
+    color: black;
 }
 
 @media only screen and (min-width: 801px) {
-    body {
-        margin: 0rem;
-        padding: 0rem;
-    }
-
+    
     h1 {
         color: white;
-        font-size: 2.3em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3.5em;
         text-align: right;
-        padding-top: 2em;
-        margin-right: 1em;
+        padding-top: 1.1rem;
+        margin-right: 1rem;
     }
 
     h2 {
         color: white;
-        font-size: 1.9em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.25em;
         text-align: right;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
         margin-right: 1em;
+        padding: 0rem;
     }
 
     h3 {
         color: white;
         text-align: center;
-        font-size: 3.5em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.75em;
         margin: 0em;
         padding: .5em;
     }
 
     ul {
-        background-color: gray;
+        background-color: rgb(68, 68, 68);
         margin-top: 0em;
-        padding-top: .5em;
-        padding-bottom: .5em;
+        padding-top: .75em;
+        padding-bottom: .75em;
+        padding-left: 0em;
+        text-align: center;
         position: fixed;
         top: 0rem;
         width: 100%;
@@ -49,7 +54,8 @@ body {
 
     li a {
         color: white;
-        font-size: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.6em;
         padding-top: .5em;
         padding-left: .75em;
         padding-bottom: .5em;
@@ -57,7 +63,8 @@ body {
     }
 
     p {
-        font-size: 1.3em;
+        font-size: 1.2em;
+        font-family: Arial, Helvetica, sans-serif;
         margin: 1em;
     }
 
@@ -65,9 +72,9 @@ body {
         border: solid .2em;
         border-color: white;
         color: white;
+        font-size: 1.2em;
         padding: .5em;
         text-decoration: none;
-        font-size: 1.3em;
     }
 
     .contact_button_wrapper {
@@ -96,12 +103,10 @@ body {
         background-image: url("media/Color\ \(14\ of\ 20\).jpg");
         background-color: rgb(175, 175, 175);
         background-blend-mode: multiply;
-        background-position-x: -230px;
-        background-size: 135%;
-        height: 35rem;
-        background-repeat: no-repeat;
+        background-position-x: -150px;
+        background-size: 125%;
         margin-bottom: -1.25rem;
-        padding-bottom: 10em;
+        padding-bottom: 18em;
         
     }
 
@@ -111,7 +116,6 @@ body {
         background-color: rgb(80, 80, 80);
         background-blend-mode: overlay;
         background-size: cover;
-        height: 60rem;
         margin-bottom: -1.25rem;
         padding-bottom: 5em;
     }
@@ -121,7 +125,7 @@ body {
         padding-right: 1em;
         padding-bottom: .25em;
         float: left;
-        width: 300px;
+        width: 40%;
     }
 
     .bio_information {
@@ -134,18 +138,17 @@ body {
         background-image: url("Media/Color\ \(18\ of\ 20\).jpg");
         background-color: rgb(80, 80, 80);
         background-blend-mode: overlay;
-        background-position-x: -100px;
-        background-size: 150%;
+        background-position-x: -170px;
+        background-size: 180%;
         background-repeat: no-repeat;
-        height: 45rem;
         margin-bottom: -1.25rem;
-        padding-bottom: 4em;
+        padding-bottom: 10em;
     }
 
     .teaching_information {
         color: white;
         display: grid;
-        grid-template-columns: 60% auto;
+        grid-template-columns:50% auto;
     }
 
     /* ----- Contact Section of Page ----- */
@@ -155,9 +158,8 @@ body {
         background-blend-mode: overlay;
         background-position: bottom;
         background-size: cover;
-        height: 30rem; 
+        padding-bottom: 10rem;
         margin-bottom: -1.25rem;
-        padding-bottom: 4em;
     }
 
     .contact_information {
@@ -224,7 +226,7 @@ body {
     li a {
         color: white;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 2em;
+        font-size: 1.6em;
         padding-top: .5em;
         padding-left: .75em;
         padding-bottom: .5em;
