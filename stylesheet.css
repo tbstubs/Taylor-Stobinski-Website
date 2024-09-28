@@ -120,6 +120,12 @@ body {
         padding-bottom: 5em;
     }
 
+    #bio_header_wrapper {
+        display: grid;
+        grid-template-columns: auto 50%;
+        margin:1em;
+    }
+
     #bio_pic {
         display: grid;
         padding-right: 1em;
@@ -143,6 +149,11 @@ body {
         background-repeat: no-repeat;
         margin-bottom: -1.25rem;
         padding-bottom: 10em;
+    }
+
+    #teaching_header_wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
 
     .teaching_information {
@@ -291,6 +302,12 @@ body {
         padding-bottom: 5em;
     }
 
+    #bio_header_wrapper {
+        display: grid;
+        grid-template-columns: auto 50%;
+        margin:1em;
+    }
+
     #bio_pic {
         display: grid;
         padding-right: 1em;
@@ -314,6 +331,11 @@ body {
         background-repeat: no-repeat;
         margin-bottom: -1.25rem;
         padding-bottom: 10em;
+    }
+
+    #teaching_header_wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
 
     .teaching_information {
@@ -462,6 +484,11 @@ body {
         padding-bottom: 5em;
     }
 
+    #bio_header_wrapper {
+        display: grid;
+        grid-template-columns: auto 50%;
+    }
+
     #bio_pic {
         display: grid;
         padding-right: 1em;
@@ -485,6 +512,11 @@ body {
         background-repeat: no-repeat;
         margin-bottom: -1.25rem;
         padding-bottom: 10em;
+    }
+
+    #teaching_header_wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
 
     .teaching_information {
@@ -624,12 +656,18 @@ body {
 
     /* ----- Bio Section of Page ----- */
     #bio_section {
-        background-image: url("Media/Color\ \(15\ of\ 20\).jpg");
-        background-color: rgb(80, 80, 80);
+        /* background-image: url("Media/Color\ \(15\ of\ 20\).jpg"); */
+        background-color: rgb(31, 31, 31);
         background-blend-mode: overlay;
         background-size: cover;
         margin-bottom: -1.25rem;
         padding-bottom: 5em;
+    }
+
+    #bio_header_wrapper {
+        display: grid;
+        grid-template-columns: auto 50%;
+        margin:1em;
     }
 
     #bio_pic {
@@ -655,6 +693,11 @@ body {
         background-repeat: no-repeat;
         margin-bottom: -1.25rem;
         padding-bottom: 10em;
+    }
+
+    #teaching_header_wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
 
     .teaching_information {
@@ -802,6 +845,12 @@ body {
         padding-bottom: 5em;
     }
 
+    #bio_header_wrapper {
+        display: grid;
+        grid-template-columns: auto 50%;
+        margin:1em;
+    }
+
     #bio_pic {
         display: grid;
         padding-right: 1em;
@@ -825,6 +874,11 @@ body {
         background-repeat: no-repeat;
         margin-bottom: -1.25rem;
         padding-bottom: 10em;
+    }
+
+    #teaching_header_wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
 
     .teaching_information {
@@ -972,6 +1026,12 @@ body {
         padding-bottom: 5em;
     }
 
+    #bio_header_wrapper {
+        display: grid;
+        grid-template-columns: auto 50%;
+        margin:1em;
+    }
+
     #bio_pic {
         display: grid;
         padding-right: 1em;
@@ -995,6 +1055,11 @@ body {
         background-repeat: no-repeat;
         margin-bottom: -1.25rem;
         padding-bottom: 10em;
+    }
+
+    #teaching_header_wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
 
     .teaching_information {
@@ -1142,6 +1207,12 @@ body {
         padding-bottom: 5em;
     }
 
+    #bio_header_wrapper {
+        display: grid;
+        grid-template-columns: auto 50%;
+        margin:1em;
+    }
+
     #bio_pic {
         display: grid;
         padding-right: 1em;
@@ -1165,6 +1236,11 @@ body {
         background-repeat: no-repeat;
         margin-bottom: -1.25rem;
         padding-bottom: 2em;
+    }
+
+    #teaching_header_wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
     }
 
     .teaching_information {
