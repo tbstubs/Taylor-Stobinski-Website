@@ -656,18 +656,24 @@ body {
 
     /* ----- Bio Section of Page ----- */
     #bio_section {
-        /* background-image: url("Media/Color\ \(15\ of\ 20\).jpg"); */
-        background-color: rgb(31, 31, 31);
+        background-image: url("Media/Color\ \(19\ of\ 20\).jpg");
+        background-color: rgb(70, 70, 70);
         background-blend-mode: overlay;
-        background-size: cover;
+        background-size: 370%;
+        background-position-x: -570px;
         margin-bottom: -1.25rem;
         padding-bottom: 5em;
     }
 
     #bio_header_wrapper {
         display: grid;
-        grid-template-columns: auto 50%;
+        grid-template-columns: auto 60%;
         margin:1em;
+    }
+
+    #bio_content_wrapper {
+        display: grid;
+        grid-template-columns: auto 60%;
     }
 
     #bio_pic {
@@ -675,12 +681,16 @@ body {
         padding-right: 1em;
         padding-bottom: .25em;
         float: left;
-        width: 50%;
+        width: 100%;
+    }
+
+    #bio_header {
+        color: white;
     }
 
     .bio_information {
         color: white;
-        /* background-color: rgb(49, 49, 49); */
+        margin-top: 0rem;
     }
 
     /* ----- Teaching Section of Page ----- */
