@@ -8,8 +8,8 @@ body {
 ul {
     background-color: rgb(68, 68, 68);
     margin-top: 0em;
-    padding-top: .75em;
-    padding-bottom: .75em;
+    padding-top: 1em;
+    padding-bottom: 1em;
     padding-left: 0em;
     text-align: center;
     position: fixed;
@@ -21,12 +21,546 @@ li {
     display: inline;    
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (min-width: 1150px) {
 
     h1 {
         color: white;
         font-family: Arial, Helvetica, sans-serif;
+        font-size: 4em;
+        text-align: right;
+        padding-top: 1rem;
+        margin-right: 10rem;
+    }
+
+    h2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3em;
+        text-align: right;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        margin-right: 10rem;
+        padding: 0rem;
+    }
+
+    h3 {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4em;
+        margin: 0em;
+        padding: .5em;
+    }
+
+    li a {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        padding-left: 1em;
+        padding-right: 1em;
+        text-decoration: none;
+    }
+
+    p {
         font-size: 1.8em;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 1em;
+    }
+
+    .contact_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    .contact_button_wrapper {
+        text-align: center;
+    }
+
+    #footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #footer_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    #footer_button_wrapper {
+        padding: 1em;
+    }
+
+    /* ----- Home Section of Page ----- */
+    #home_section {
+        background-image: url("media/Taylor_Leaning_with_Cello.jpg");
+        background-color: rgb(175, 175, 175);
+        background-blend-mode: multiply;
+        background-position: top left;
+        background-size: cover;
+        margin-top: 2.5rem;
+        margin-bottom: -1.25rem;
+        padding-bottom: 30rem;
+        
+    }
+
+    /* ----- Bio Section of Page ----- */
+    #bio_section {
+        background-image: url("Media/Taylor_with_Cello_Case.jpg");
+        background-color: rgb(60, 60, 60);
+        background-blend-mode: overlay;
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 4rem;
+    }
+
+    #bio_header_wrapper {
+        display: grid;
+        grid-template-columns: auto 70%;
+        margin: 1em;
+    }
+
+    #bio_content_wrapper {
+        display: grid;
+        grid-template-columns: auto 70%
+    }
+
+    #mobile_bio_pic {
+        display: grid;
+        padding-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        visibility: hidden;
+    }
+
+    #bio_header {
+        color: white;
+    }
+
+    .bio_information {
+        color: white;
+        margin-top: 0rem;
+    }
+
+    /* ----- Teaching Section of Page ----- */
+    #teaching_section {
+        background-image: url("Media/Taylor_in_Black_Chair.jpg");
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position: top right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 25rem;
+    }
+
+    #teaching_header_wrapper {
+        display: grid;
+        grid-template-columns: 60% auto;
+    }
+
+    .teaching_information {
+        color: white;
+        display: grid;
+        grid-template-columns:60% auto;
+    }
+
+    /* ----- Contact Section of Page ----- */
+    #contact_section {
+        background-image: url(media/Cello_Laying_Down.jpg);
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position: center bottom;
+        background-size: cover;
+        padding-bottom: 22rem;
+        margin-bottom: -1.25rem;
+    }
+
+    .contact_information {
+        color: white;
+        text-align: center;
+    }
+
+    /* ----- Footer ----- */
+    footer {
+        background-color: black;
+        color: white;
+        margin-bottom: -1.25rem;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1149px) {
+
+    h1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4em;
+        text-align: right;
+        padding-top: 1rem;
+        margin-right: 1rem;
+    }
+
+    h2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3em;
+        text-align: right;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        margin-right: 1em;
+        padding: 0rem;
+    }
+
+    h3 {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4em;
+        margin: 0em;
+        padding: .5em;
+    }
+
+    li a {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        padding-left: 1em;
+        padding-right: 1em;
+        text-decoration: none;
+    }
+
+    p {
+        font-size: 1.4em;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 1em;
+    }
+
+    .contact_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    .contact_button_wrapper {
+        text-align: center;
+    }
+
+    #footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #footer_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    #footer_button_wrapper {
+        padding: 1em;
+    }
+
+    /* ----- Home Section of Page ----- */
+    #home_section {
+        background-image: url("media/Taylor_Leaning_with_Cello.jpg");
+        background-color: rgb(175, 175, 175);
+        background-blend-mode: multiply;
+        background-position: top left;
+        background-size: cover;
+        margin-top: 2.5rem;
+        margin-bottom: -1.25rem;
+        padding-bottom: 30rem;
+        
+    }
+
+    /* ----- Bio Section of Page ----- */
+    #bio_section {
+        background-image: url("Media/Taylor_with_Cello_Case.jpg");
+        background-color: rgb(60, 60, 60);
+        background-blend-mode: overlay;
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 4rem;
+    }
+
+    #bio_header_wrapper {
+        display: grid;
+        grid-template-columns: auto 70%;
+        margin: 1em;
+    }
+
+    #bio_content_wrapper {
+        display: grid;
+        grid-template-columns: auto 70%
+    }
+
+    #mobile_bio_pic {
+        display: grid;
+        padding-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        visibility: hidden;
+    }
+
+    #bio_header {
+        color: white;
+    }
+
+    .bio_information {
+        color: white;
+        margin-top: 0rem;
+    }
+
+    /* ----- Teaching Section of Page ----- */
+    #teaching_section {
+        background-image: url("Media/Taylor_in_Black_Chair.jpg");
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position: top right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 15rem;
+    }
+
+    #teaching_header_wrapper {
+        display: grid;
+        grid-template-columns: 60% auto;
+    }
+
+    .teaching_information {
+        color: white;
+        display: grid;
+        grid-template-columns:60% auto;
+    }
+
+    /* ----- Contact Section of Page ----- */
+    #contact_section {
+        background-image: url(media/Cello_Laying_Down.jpg);
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position: center bottom;
+        background-size: cover;
+        padding-bottom: 22rem;
+        margin-bottom: -1.25rem;
+    }
+
+    .contact_information {
+        color: white;
+        text-align: center;
+    }
+
+    /* ----- Footer ----- */
+    footer {
+        background-color: black;
+        color: white;
+        margin-bottom: -1.25rem;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 999px) {
+
+    h1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4em;
+        text-align: right;
+        padding-top: 1rem;
+        margin-right: 1rem;
+    }
+
+    h2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3em;
+        text-align: right;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        margin-right: 1em;
+        padding: 0rem;
+    }
+
+    h3 {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4em;
+        margin: 0em;
+        padding: .5em;
+    }
+
+    li a {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        padding-left: 1em;
+        padding-right: 1em;
+        text-decoration: none;
+    }
+
+    p {
+        font-size: 1.4em;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 1em;
+    }
+
+    .contact_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    .contact_button_wrapper {
+        text-align: center;
+    }
+
+    #footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #footer_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    #footer_button_wrapper {
+        padding: 1em;
+    }
+
+    /* ----- Home Section of Page ----- */
+    #home_section {
+        background-image: url("media/Taylor_Leaning_with_Cello.jpg");
+        background-color: rgb(175, 175, 175);
+        background-blend-mode: multiply;
+        background-position: top left;
+        background-size: cover;
+        margin-top: 2.5rem;
+        margin-bottom: -1.25rem;
+        padding-bottom: 30rem;
+        
+    }
+
+    /* ----- Bio Section of Page ----- */
+    #bio_section {
+        background-image: url("Media/Taylor_with_Cello_Case.jpg");
+        background-color: rgb(60, 60, 60);
+        background-blend-mode: overlay;
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 4rem;
+    }
+
+    #bio_header_wrapper {
+        display: grid;
+        grid-template-columns: auto 70%;
+        margin: 1em;
+    }
+
+    #bio_content_wrapper {
+        display: grid;
+        grid-template-columns: auto 70%
+    }
+
+    #mobile_bio_pic {
+        display: grid;
+        padding-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        visibility: hidden;
+    }
+
+    #bio_header {
+        color: white;
+    }
+
+    .bio_information {
+        color: white;
+        margin-top: 0rem;
+    }
+
+    /* ----- Teaching Section of Page ----- */
+    #teaching_section {
+        background-image: url("Media/Taylor_in_Black_Chair.jpg");
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position: top right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 10rem;
+    }
+
+    #teaching_header_wrapper {
+        display: grid;
+        grid-template-columns: 60% auto;
+    }
+
+    .teaching_information {
+        color: white;
+        display: grid;
+        grid-template-columns:60% auto;
+    }
+
+    /* ----- Contact Section of Page ----- */
+    #contact_section {
+        background-image: url(media/Cello_Laying_Down.jpg);
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position: bottom center;
+        background-size: cover;
+        padding-bottom: 20rem;
+        margin-bottom: -1.25rem;
+    }
+
+    .contact_information {
+        color: white;
+        text-align: center;
+    }
+
+    /* ----- Footer ----- */
+    footer {
+        background-color: black;
+        color: white;
+        margin-bottom: -1.25rem;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 575px) and (max-width: 767px) {
+
+    h1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.75em;
         text-align: right;
         padding-top: 1.1rem;
         margin-right: 1rem;
@@ -35,7 +569,7 @@ li {
     h2 {
         color: white;
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1.3em;
+        font-size: 2em;
         text-align: right;
         margin-top: 0rem;
         margin-bottom: 0rem;
@@ -56,6 +590,184 @@ li {
         color: white;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.2em;
+        padding-left: 1em;
+        padding-right: 1em;
+        text-decoration: none;
+    }
+
+    p {
+        font-size: 1.1em;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 1em;
+    }
+
+    .contact_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    .contact_button_wrapper {
+        text-align: center;
+    }
+
+    #footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #footer_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    #footer_button_wrapper {
+        padding: 1em;
+    }
+
+    /* ----- Home Section of Page ----- */
+    #home_section {
+        background-image: url("media/Taylor_Leaning_with_Cello.jpg");
+        background-color: rgb(175, 175, 175);
+        background-blend-mode: multiply;
+        background-position: top left;
+        background-size: cover;
+        margin-top: 2.5rem;
+        margin-bottom: -1.25rem;
+        padding-bottom: 20rem;
+        
+    }
+
+    /* ----- Bio Section of Page ----- */
+    #bio_section {
+        background-image: url("Media/Taylor_with_Cello_Case.jpg");
+        background-color: rgb(60, 60, 60);
+        background-blend-mode: overlay;
+        background-size: cover;
+        background-position: left;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 4rem;
+    }
+
+    #bio_header_wrapper {
+        display: grid;
+        grid-template-columns: auto 70%;
+        margin: 1em;
+    }
+
+    #bio_content_wrapper {
+        display: grid;
+        grid-template-columns: auto 70%
+    }
+
+    #mobile_bio_pic {
+        display: grid;
+        padding-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        visibility: hidden;
+    }
+
+    #bio_header {
+        color: white;
+    }
+
+    .bio_information {
+        color: white;
+        margin-top: 0rem;
+    }
+
+    /* ----- Teaching Section of Page ----- */
+    #teaching_section {
+        background-image: url("Media/Taylor_in_Black_Chair.jpg");
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position: top right;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 10rem;
+    }
+
+    #teaching_header_wrapper {
+        display: grid;
+        grid-template-columns: 60% auto;
+    }
+
+    .teaching_information {
+        color: white;
+        display: grid;
+        grid-template-columns:60% auto;
+    }
+
+    /* ----- Contact Section of Page ----- */
+    #contact_section {
+        background-image: url(media/Cello_Laying_Down.jpg);
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position: bottom center;
+        background-size: cover;
+        padding-bottom: 15rem;
+        margin-bottom: -1.25rem;
+    }
+
+    .contact_information {
+        color: white;
+        text-align: center;
+    }
+
+    /* ----- Footer ----- */
+    footer {
+        background-color: black;
+        color: white;
+        margin-bottom: -1.25rem;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 425px) and (max-width: 574px) {
+
+    h1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.2em;
+        text-align: right;
+        padding-top: 1.1rem;
+        margin-right: 1rem;
+    }
+
+    h2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.6em;
+        text-align: right;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        margin-right: 1em;
+        padding: 0rem;
+    }
+
+    h3 {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.2em;
+        margin: 0em;
+        padding: .5em;
+    }
+
+    li a {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.05em;
         padding-left: .25em;
         padding-right: .25em;
         text-decoration: none;
@@ -105,39 +817,39 @@ li {
         background-size: cover;
         margin-top: 2.5rem;
         margin-bottom: -1.25rem;
-        padding-bottom: 10em;
+        padding-bottom: 20em;
         
     }
 
     /* ----- Bio Section of Page ----- */
     #bio_section {
         background-image: url("Media/Taylor_with_Cello_Case.jpg");
-        background-color: rgb(70, 70, 70);
+        background-color: rgb(40, 40, 40);
         background-blend-mode: overlay;
         background-size: cover;
-        background-position: top left;
+        background-position: right bottom;
+        background-repeat: no-repeat;
         margin-bottom: -1.25rem;
         padding-bottom: 4rem;
     }
 
     #bio_header_wrapper {
         display: grid;
-        grid-template-columns: auto 60%;
-        margin:1em;
+        grid-template-columns: 100%;
+        margin: 1em;
     }
 
     #bio_content_wrapper {
         display: grid;
-        grid-template-columns: auto 60%;
+        grid-template-columns: 100%
     }
 
-    #bio_pic {
+    #mobile_bio_pic {
         display: grid;
-        padding-right: 1em;
-        padding-bottom: .25em;
-        float: left;
-        width: 100%;
-        visibility: hidden;
+        padding-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
     }
 
     #bio_header {
@@ -154,16 +866,16 @@ li {
         background-image: url("Media/Taylor_in_Black_Chair.jpg");
         background-color: rgb(80, 80, 80);
         background-blend-mode: overlay;
-        background-position: right;
+        background-position: top right;
         background-size: cover;
         background-repeat: no-repeat;
         margin-bottom: -1.25rem;
-        padding-bottom: 10em;
+        padding-bottom: 1rem;
     }
 
     #teaching_header_wrapper {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 50% auto;
     }
 
     .teaching_information {
@@ -177,7 +889,184 @@ li {
         background-image: url(media/Cello_Laying_Down.jpg);
         background-color: rgb(80, 80, 80);
         background-blend-mode: overlay;
-        background-position: center bottom;
+        background-position: bottom center;
+        background-size: cover;
+        padding-bottom: 10rem;
+        margin-bottom: -1.25rem;
+    }
+
+    .contact_information {
+        color: white;
+        text-align: center;
+    }
+
+    /* ----- Footer ----- */
+    footer {
+        background-color: black;
+        color: white;
+        margin-bottom: -1.25rem;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 424px) {
+
+    h1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.6em;
+        text-align: right;
+        padding-top: 1.1rem;
+        margin-right: 1rem;
+    }
+
+    h2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.15em;
+        text-align: right;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+        margin-right: 1em;
+        padding: 0rem;
+    }
+
+    h3 {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.6em;
+        margin: 0em;
+        padding: .5em;
+    }
+
+    li a {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.05em;
+        padding-left: .25em;
+        padding-right: .25em;
+        text-decoration: none;
+    }
+
+    p {
+        font-size: 1em;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 1em;
+    }
+
+    .contact_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    .contact_button_wrapper {
+        text-align: center;
+    }
+
+    #footer {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    #footer_button {
+        border: solid .2em;
+        border-color: white;
+        color: white;
+        padding: .5em;
+        text-decoration: none;
+    }
+
+    #footer_button_wrapper {
+        padding: 1em;
+    }
+
+    /* ----- Home Section of Page ----- */
+    #home_section {
+        background-image: url("media/Taylor_Leaning_with_Cello.jpg");
+        background-color: rgb(175, 175, 175);
+        background-blend-mode: multiply;
+        background-position: top left;
+        background-size: cover;
+        margin-top: 2.5rem;
+        margin-bottom: -1.25rem;
+        padding-bottom: 15rem;
+        
+    }
+
+    /* ----- Bio Section of Page ----- */
+    #bio_section {
+        background-image: url("Media/Taylor_with_Cello_Case.jpg");
+        background-color: rgb(40, 40, 40);
+        background-blend-mode: overlay;
+        background-size: cover;
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 4rem;
+    }
+
+    #bio_header_wrapper {
+        display: grid;
+        grid-template-columns: 100%;
+        margin: 1em;
+    }
+
+    #bio_content_wrapper {
+        display: grid;
+        grid-template-columns: 100%
+    }
+
+    #mobile_bio_pic {
+        display: grid;
+        padding-bottom: 2em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    #bio_header {
+        color: white;
+    }
+
+    .bio_information {
+        color: white;
+        margin-top: 0rem;
+    }
+
+    /* ----- Teaching Section of Page ----- */
+    #teaching_section {
+        /* background-image: url("Media/Taylor_in_Black_Chair.jpg"); */
+        background-color: rgb(40, 40, 40);
+        background-blend-mode: overlay;
+        background-position: left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: -1.25rem;
+        padding-bottom: 2.5rem;
+    }
+
+    #teaching_header_wrapper {
+        display: grid;
+        grid-template-columns: 100% auto;
+    }
+
+    .teaching_information {
+        color: white;
+        display: grid;
+        grid-template-columns:100% auto;
+    }
+
+    /* ----- Contact Section of Page ----- */
+    #contact_section {
+        background-image: url(media/Cello_Laying_Down.jpg);
+        background-color: rgb(80, 80, 80);
+        background-blend-mode: overlay;
+        background-position: center;
         background-size: cover;
         padding-bottom: 7rem;
         margin-bottom: -1.25rem;
@@ -185,6 +1074,7 @@ li {
 
     .contact_information {
         color: white;
+        text-align: bottom center;
     }
 
     /* ----- Footer ----- */
