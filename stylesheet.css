@@ -21,6 +21,10 @@ li {
     display: inline;    
 }
 
+.contact_button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 @media only screen and (min-width: 1250px) {
 
     h1 {
@@ -988,7 +992,7 @@ li {
 
     /* ----- Home Section of Page ----- */
     #home_section {
-        background-image: url("media/Taylor_Leaning_with_Cello.jpg");
+        background-image: url("Media/Taylor_Leaning_with_Cello.jpg");
         background-color: rgb(175, 175, 175);
         background-blend-mode: multiply;
         background-position: top left;
@@ -1023,6 +1027,8 @@ li {
     }
 
     #mobile_bio_pic {
+        filter: brightness(80%);
+        background-blend-mode: overlay;
         display: grid;
         padding-bottom: 2em;
         margin-left: auto;
@@ -1200,6 +1206,7 @@ li {
     }
 
     #mobile_bio_pic {
+        filter: brightness(80%);
         display: grid;
         padding-bottom: 2em;
         margin-left: auto;
